@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 399c3bb6e9a9d48aa88dce898ad4896f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Foot
+    100012: Bip001 L Thigh
+    100014: Bip001 L Toe0
+    100016: Bip001 L Toe0Nub
+    100018: Bip001 Neck
+    100020: Bip001 Pelvis
+    100022: Bip001 R Calf
+    100024: Bip001 R Foot
+    100026: Bip001 R Thigh
+    100028: Bip001 R Toe0
+    100030: Bip001 R Toe0Nub
+    100032: Bip001 Spine
+    100034: //RootNode
+    100036: DroneContainerBottom
+    100038: DroneContainerTop
+    100040: DroneCore
+    100042: DroneGunLeft
+    100044: DroneGunRight
+    100046: FootLeft
+    100048: FootRight
+    100050: HipBoneLeft
+    100052: HipBoneRight
+    100054: KneeLeft
+    100056: KneeRight
+    100058: Pelvis
+    100060: PelvisCon
+    100062: PelvisShield
+    100064: Satellite
+    100066: ShinboneLeft
+    100068: ShinboneRight
+    100070: Spine
+    100072: ThighLeft
+    100074: ThighRight
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Foot
+    400012: Bip001 L Thigh
+    400014: Bip001 L Toe0
+    400016: Bip001 L Toe0Nub
+    400018: Bip001 Neck
+    400020: Bip001 Pelvis
+    400022: Bip001 R Calf
+    400024: Bip001 R Foot
+    400026: Bip001 R Thigh
+    400028: Bip001 R Toe0
+    400030: Bip001 R Toe0Nub
+    400032: Bip001 Spine
+    400034: //RootNode
+    400036: DroneContainerBottom
+    400038: DroneContainerTop
+    400040: DroneCore
+    400042: DroneGunLeft
+    400044: DroneGunRight
+    400046: FootLeft
+    400048: FootRight
+    400050: HipBoneLeft
+    400052: HipBoneRight
+    400054: KneeLeft
+    400056: KneeRight
+    400058: Pelvis
+    400060: PelvisCon
+    400062: PelvisShield
+    400064: Satellite
+    400066: ShinboneLeft
+    400068: ShinboneRight
+    400070: Spine
+    400072: ThighLeft
+    400074: ThighRight
+    2100000: drone-foot-material
+    2100002: drone-shinbone-material
+    2100004: drone-leg-metal-material
+    2100006: drone-center-material
+    2100008: drone-container-material
+    2100010: drone-gun-material
+    2100012: drone-radar-material
+    2100014: No Name
+    2100016: drone-pelvis-shield-material
+    2300000: DroneContainerBottom
+    2300002: DroneContainerTop
+    2300004: DroneCore
+    2300006: DroneGunLeft
+    2300008: DroneGunRight
+    2300010: FootLeft
+    2300012: FootRight
+    2300014: HipBoneLeft
+    2300016: HipBoneRight
+    2300018: KneeLeft
+    2300020: KneeRight
+    2300022: Pelvis
+    2300024: PelvisCon
+    2300026: PelvisShield
+    2300028: Satellite
+    2300030: ShinboneLeft
+    2300032: ShinboneRight
+    2300034: Spine
+    2300036: ThighLeft
+    2300038: ThighRight
+    3300000: DroneContainerBottom
+    3300002: DroneContainerTop
+    3300004: DroneCore
+    3300006: DroneGunLeft
+    3300008: DroneGunRight
+    3300010: FootLeft
+    3300012: FootRight
+    3300014: HipBoneLeft
+    3300016: HipBoneRight
+    3300018: KneeLeft
+    3300020: KneeRight
+    3300022: Pelvis
+    3300024: PelvisCon
+    3300026: PelvisShield
+    3300028: Satellite
+    3300030: ShinboneLeft
+    3300032: ShinboneRight
+    3300034: Spine
+    3300036: ThighLeft
+    3300038: ThighRight
+    4300000: FootLeft
+    4300002: ShinboneLeft
+    4300004: KneeLeft
+    4300006: HipBoneLeft
+    4300008: ThighLeft
+    4300010: FootRight
+    4300012: ShinboneRight
+    4300014: KneeRight
+    4300016: HipBoneRight
+    4300018: ThighRight
+    4300020: DroneCore
+    4300022: DroneContainerTop
+    4300024: DroneContainerBottom
+    4300026: DroneGunRight
+    4300028: DroneGunLeft
+    4300030: Satellite
+    4300032: Spine
+    4300034: PelvisCon
+    4300036: PelvisShield
+    4300038: Pelvis
+    7400000: Explore_horizontal
+    7400002: Explore_vertical
+    7400004: run
+    7400006: walk
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-center-material
+    second: {fileID: 2100000, guid: 4ce2067048ef048609bd35c0c2bb7ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-container-material
+    second: {fileID: 2100000, guid: 002d2762a401145a79e5a67ec2f934aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-foot-material
+    second: {fileID: 2100000, guid: bd4d383ab04c04ad69488ff3c95f02f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-gun-material
+    second: {fileID: 2100000, guid: 25315ca15db044343869b1a3414ac860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-leg-metal-material
+    second: {fileID: 2100000, guid: 7e3f665f3976040c4aa9fa80a1c7cffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-pelvis-shield-material
+    second: {fileID: 2100000, guid: 99ce2bebf40f74ce9835d71ab44856f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-radar-material
+    second: {fileID: 2100000, guid: f3a657030b7084dc19a2a58661a57dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: drone-shinbone-material
+    second: {fileID: 2100000, guid: 7e4b2475c9a0f4a7985378ae7c6a6893, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Explore_horizontal
+      takeName: Explore_horizontal
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Explore_vertical
+      takeName: Explore_vertical
+      firstFrame: 25
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 46
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: walk
+      firstFrame: 67
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bip001
+    rootMotionBoneRotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
