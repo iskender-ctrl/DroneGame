@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenuScene.unity
     guid: 4b8a82a69477a9195b97dac6b63cbd6c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TacticCardScene.unity
     guid: 87755fc63f2bb2e3da3054fbe990a390
   - enabled: 1
+    path: Assets/Scenes/OnlineWarScene.unity
+    guid: ff5a3e9ff70b6c44187d91a43d0a3ec1
+  - enabled: 0
     path: Assets/Scenes/WarSceneSinglePlayer.unity
     guid: b13e1839ca006994491b923974a6f951
+  - enabled: 1
+    path: Assets/Scenes/WarSceneOnlinePlayer.unity
+    guid: 6d859ff78fcc68147a6b6bf3c3ea47ed
   m_configObjects: {}

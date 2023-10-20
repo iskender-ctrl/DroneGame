@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Common;
 using Common.Formation;
+using Photon.Pun;
 
 public class PlatoonController : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class PlatoonController : MonoBehaviour
     private GameObject dummyFormationObject;
     public float maxDrift = 1.0f;
     public float maxSpeedModifier = 2.0f;
-    public Transform unit;
+    public string unitName, unitNameEnemy;
     public int unitSize = 8;
 
     [Range(1.0f, 5.0f)]
@@ -23,7 +24,8 @@ public class PlatoonController : MonoBehaviour
     private float scaleFactorOld = 1.0f;
     public float rotateFactor = 0f;
     private Boolean platoonMaked = false;
-
+    [SerializeField] PhotonView photonView;
+    MonoBehaviour[] scriptComponents;
     public void Start()
     {
         scaleFactorOld = scaleFactor;
@@ -49,9 +51,27 @@ public class PlatoonController : MonoBehaviour
         int idx = 0;
         foreach (Transform pointIcon in pointIcons)
         {
-            Transform dronic = Instantiate(unit, pointIcon.position, Quaternion.identity);
+            GameObject dronic = PhotonNetwork.Instantiate(unitName, pointIcon.position, Quaternion.identity);
+            scriptComponents = dronic.GetComponents<MonoBehaviour>();
+
+
+            photonView = dronic.GetComponent<PhotonView>();
+
+            if (photonView.IsMine)
+            {
+                foreach (MonoBehaviour component in scriptComponents)
+                {
+                    dronic.gameObject.tag = "Unit";
+                    component.enabled = true;
+                }
+            }
+            else
+            {
+                print(dronic.gameObject.name);
+            }
+
             dronic.GetComponent<DroneController>().setPlatoon(this);
-            units[idx] = dronic;
+            units[idx] = dronic.transform;
             idx++;
         }
 

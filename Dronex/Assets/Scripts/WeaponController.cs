@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Common;
-
+using Photon.Pun;
 public class ProjectileSpawnPoint
 {
     public Transform spawnPoint;
@@ -15,7 +15,7 @@ public class WeaponController : MonoBehaviour
     [SerializeField]
     public Transform[] projectileSpawnPoints;
     public float startHealthAttrition = 10f;
-    public Transform projectile;
+    public string projectile;
     public float fireRate = 0.2f;
     public float range = 5.0f;
     public float speed = 20.0f;
@@ -30,7 +30,8 @@ public class WeaponController : MonoBehaviour
         droneController = newDroneController;
     }
 
-    public float getHealthAttrition() {
+    public float getHealthAttrition()
+    {
         return this.startHealthAttrition + (droneController.getDamageAmount() * damageAmountWeight);
     }
 
@@ -44,7 +45,7 @@ public class WeaponController : MonoBehaviour
 
             for (int i = 1; i <= maxSimultaneousProjectile; i++)
             {
-                Transform projectileTransform = Instantiate(projectile, spawnPoint.position, spawnPoint.rotation);
+                Transform projectileTransform = PhotonNetwork.Instantiate(projectile, spawnPoint.position, spawnPoint.rotation).gameObject.transform;
                 projectileTransform.gameObject.SetActive(false);
                 ProjectileController projectileController = projectileTransform.GetComponent<ProjectileController>();
                 projectileController.setDroneController(droneController);
